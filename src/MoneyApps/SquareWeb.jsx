@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import './MoneyApp.css';
 
 class SquareWeb extends Component {
   render() {
     return (
-      <div className="card">
+      <div className="card MoneyApp">
         <div className="card-header">
           <h3 className="card-title">Cash Website</h3>
         </div>

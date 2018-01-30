@@ -1,0 +1,16 @@
+.appstore {
+	display: inline-block;
+	overflow: hidden;
+	background-size: contain;
+}
+
+.appstore-ios, .appstore-ios:active {
+	/* width: 135px; */
+	height: 40px;
+  margin: 10px;
+}
+
+.appstore-android img, .appstore-android:active img {
+  height: 60px;
+  /* 10px margin is built-in to the Google Play badge image as a transparent border */
+}

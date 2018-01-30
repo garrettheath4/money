@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './MoneyApp.css';
+import './AppStore/AppStore.css';
 
 class MoneyApp extends Component {
   constructor(props) {

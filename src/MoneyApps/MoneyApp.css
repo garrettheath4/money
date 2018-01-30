@@ -2,3 +2,18 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.MoneyApp .card-block {
+  padding: 6px;
+}
+
+.MoneyApp .card-block a.btn[role="button"] {
+  margin: 10px;
+}
+
+/* Source: https://stackoverflow.com/a/16447619/1360295 */
+.MoneyApp code {
+  white-space: pre;
+  word-break: normal;
+  word-wrap: normal;
+}

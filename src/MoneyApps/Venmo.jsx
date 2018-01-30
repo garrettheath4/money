@@ -7,7 +7,7 @@ class Venmo extends Component {
   render() {
     return (
       <MoneyApp title="Venmo App" priority="low">
-        <div>If you don't have the Square Cash app and you use <a href="https://venmo.com/about/product/">Venmo</a> instead, send it to my Venmo username: <a href="https://venmo.com/garrettheath4"><code>@garrettheath4</code></a>.</div>
+        <p>If you don't have the Square Cash app and you use <a href="https://venmo.com/about/product/">Venmo</a> instead, send it to my Venmo username: <a href="https://venmo.com/garrettheath4"><code>@garrettheath4</code></a>.</p>
         <div>
           <a href="https://venmo.com/garrettheath4" className="btn btn-secondary venmo-link" role="button">
             <span className="dollars-unknown show">Send me money with Venmo</span>

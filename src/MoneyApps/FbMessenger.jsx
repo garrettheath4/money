@@ -7,7 +7,8 @@ class FbMessenger extends Component {
   render() {
     return (
       <MoneyApp title="Facebook Messenger" priority="low">
-        <div>Facebook Messenger now has secure payments built in. To send me money, <a href="http://fb.com/msg/garrettheath4">start a conversation with me</a> in Messenger and click the <code>$ Payments</code> button. You might have to click the <code>… Show More</code> button first to find the <code>$ Payments</code> button.</div>
+        <p>Facebook Messenger now has secure payments built in. To send me money, <a href="http://fb.com/msg/garrettheath4">start a conversation with me</a> in Messenger and click the <code>$ Payments</code> button.
+        You might have to click the <code>… Show More</code> button first to find the <code>$ Payments</code> button.</p>
         <div>
           <a href="https://www.messenger.com/" className="btn btn-secondary" role="button">Messenger Web App</a>
         </div>

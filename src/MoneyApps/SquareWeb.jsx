@@ -9,8 +9,8 @@ class SquareWeb extends Component {
         Payments are sent <a href="https://cash.me/security">securely</a> by Square Cash.</p>
         <div>
           <a href="https://cash.me/$garrettheath4" className="btn btn-secondary cashtag-link" role="button">
-            <span className="dollars-unknown show">Send me money with the Square Cash website</span>
-            <span className="dollars-known hide" hidden>Send me $<span className="dollars-known-amount"></span> with the Square Cash website</span>
+            <span className="dollars-unknown show">Launch Square Cash website</span>
+            <span className="dollars-known hide" hidden>Send $<span className="dollars-known-amount"></span></span>
           </a>
         </div>
       </MoneyApp>

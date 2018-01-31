@@ -9,6 +9,7 @@
 
 .MoneyApp .card-block a.btn[role="button"] {
   margin: 10px;
+  white-space: normal;
 }
 
 /* Source: https://stackoverflow.com/a/16447619/1360295 */

@@ -10,6 +10,9 @@ class SquareMobile extends Component {
         <p>Use the <a href="https://cash.me/">Square Cash</a> app and send money to my $Cashtag: <a className="cashtag-link" href="https://cash.me/$garrettheath4"><code>$garrettheath4</code></a>.
         This is my preferred way to send and receive money.</p>
         <div>
+          <a href="https://cash.me/$garrettheath4" className="btn btn-secondary cashtag-link" role="button"><code>$garretttheath4</code></a>
+        </div>
+        <div>
           <AppleButton href="https://cash.me/app/KDCNDTC"/>
           <AndroidButton href="https://cash.me/app/KDCNDTC"/>
         </div>

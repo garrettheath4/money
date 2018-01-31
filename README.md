@@ -21,10 +21,9 @@ npm install
 npm run start
 ```
 
-Run the following commands to deploy this web app to GitHub Pages:
+Run the following command to build and deploy this web app to GitHub Pages:
 
 ```
-npm run build
 npm run deploy
 ```
 

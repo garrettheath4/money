@@ -51,15 +51,12 @@ function priority2bsColor(priority) {
     return 'info';
   }
   const priorityValid = toValidPriority(priority);
-  switch (priorityValid) {
-    case 'high':
-      return 'primary';
-    case 'low':
-      return 'muted';
-    case 'medium':
-    default:
-      return 'info';
-  }
+  const priorityColorDict = {
+    'high': 'primary',
+    'low': 'muted',
+    'medium': 'info'
+  };
+  return priorityColorDict[priorityValid];
 }
 
 function priority2bsCardClass(priority) {

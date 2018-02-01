@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MoneyApp from './MoneyApp';
 import AppleButton from './AppStore/AppleButton';
 import AndroidButton from './AppStore/AndroidButton';
+import * as classNames from 'classnames';
 
 class SquareMobile extends Component {
   render() {
@@ -10,7 +11,7 @@ class SquareMobile extends Component {
         <p>Use the <a href="https://cash.me/">Square Cash</a> app and send money to my $Cashtag: <a className="cashtag-link" href="https://cash.me/$garrettheath4"><code>$garrettheath4</code></a>.
         This is my preferred way to send and receive money.</p>
         <div>
-          <a href="https://cash.me/$garrettheath4" className="btn btn-secondary cashtag-link" role="button"><code>$garrettheath4</code></a>
+          <a href="https://cash.me/$garrettheath4" className={classNames("btn", "btn-secondary", "cashtag-link")} role="button"><code>$garrettheath4</code></a>
         </div>
         <div>
           <AppleButton href="https://cash.me/app/KDCNDTC"/>

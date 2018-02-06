@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './MoneyApp.css';
 import './AppStore/AppStore.css';
+import * as classNames from 'classnames';
 
 class MoneyApp extends Component {
   constructor(props) {
@@ -28,6 +29,13 @@ class MoneyApp extends Component {
   }
 }
 
+export const PRIORITIES = ['low', 'medium', 'high'];
+const PRIORITY_COLORS = {
+  'low': 'muted',
+  'medium': 'info',
+  'high': 'primary',
+};
+
 function arrayContains(ary, item) {
   return ary.indexOf(item) > -1;
 }
@@ -51,16 +59,11 @@ function priority2bsColor(priority) {
     return 'info';
   }
   const priorityValid = toValidPriority(priority);
-  const priorityColorDict = {
-    'high': 'primary',
-    'low': 'muted',
-    'medium': 'info'
-  };
-  return priorityColorDict[priorityValid];
+  return PRIORITY_COLORS[priorityValid];
 }
 
 function priority2bsCardClass(priority) {
-  return "card card-" + priority2bsColor(priority) + " MoneyApp";
+  return classNames("card", "card-" + priority2bsColor(priority), "MoneyApp");
 }
 
 export default MoneyApp;

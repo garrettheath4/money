@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/money/static/css/main.6756a09e.chunk.css",
-    "main.js": "/money/static/js/main.7eb6d0b9.chunk.js",
-    "main.js.map": "/money/static/js/main.7eb6d0b9.chunk.js.map",
-    "runtime-main.js": "/money/static/js/runtime-main.ed5d13ae.js",
-    "runtime-main.js.map": "/money/static/js/runtime-main.ed5d13ae.js.map",
-    "static/css/2.5c5f4c00.chunk.css": "/money/static/css/2.5c5f4c00.chunk.css",
-    "static/js/2.aef7ffe1.chunk.js": "/money/static/js/2.aef7ffe1.chunk.js",
-    "static/js/2.aef7ffe1.chunk.js.map": "/money/static/js/2.aef7ffe1.chunk.js.map",
+    "main.css": "/money/static/css/main.2a788336.chunk.css",
+    "main.js": "/money/static/js/main.2b39bd5b.chunk.js",
+    "main.js.map": "/money/static/js/main.2b39bd5b.chunk.js.map",
+    "runtime-main.js": "/money/static/js/runtime-main.2328bc37.js",
+    "runtime-main.js.map": "/money/static/js/runtime-main.2328bc37.js.map",
+    "static/css/2.1e24231d.chunk.css": "/money/static/css/2.1e24231d.chunk.css",
+    "static/js/2.16fe0ff1.chunk.js": "/money/static/js/2.16fe0ff1.chunk.js",
+    "static/js/2.16fe0ff1.chunk.js.map": "/money/static/js/2.16fe0ff1.chunk.js.map",
     "index.html": "/money/index.html",
-    "precache-manifest.0640a735b31450aafb09e59419438b91.js": "/money/precache-manifest.0640a735b31450aafb09e59419438b91.js",
+    "precache-manifest.22a4ead160d720c09a043329429749ca.js": "/money/precache-manifest.22a4ead160d720c09a043329429749ca.js",
     "service-worker.js": "/money/service-worker.js",
-    "static/css/2.5c5f4c00.chunk.css.map": "/money/static/css/2.5c5f4c00.chunk.css.map",
-    "static/css/main.6756a09e.chunk.css.map": "/money/static/css/main.6756a09e.chunk.css.map",
-    "static/js/2.aef7ffe1.chunk.js.LICENSE": "/money/static/js/2.aef7ffe1.chunk.js.LICENSE"
+    "static/css/2.1e24231d.chunk.css.map": "/money/static/css/2.1e24231d.chunk.css.map",
+    "static/css/main.2a788336.chunk.css.map": "/money/static/css/main.2a788336.chunk.css.map",
+    "static/js/2.16fe0ff1.chunk.js.LICENSE.txt": "/money/static/js/2.16fe0ff1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed5d13ae.js",
-    "static/css/2.5c5f4c00.chunk.css",
-    "static/js/2.aef7ffe1.chunk.js",
-    "static/css/main.6756a09e.chunk.css",
-    "static/js/main.7eb6d0b9.chunk.js"
+    "static/js/runtime-main.2328bc37.js",
+    "static/css/2.1e24231d.chunk.css",
+    "static/js/2.16fe0ff1.chunk.js",
+    "static/css/main.2a788336.chunk.css",
+    "static/js/main.2b39bd5b.chunk.js"
   ]
 }
